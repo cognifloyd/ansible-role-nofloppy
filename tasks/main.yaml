@@ -1,0 +1,8 @@
+---
+
+- name: Blacklist floppy module (adapted from CentOS/sig-cloud-instance-build).
+  lineinfile:
+    dest: /etc/modprobe.d/nofloppy.conf
+    state: present
+    create: yes
+    line: 'blacklist floppy'

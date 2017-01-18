@@ -1,0 +1,8 @@
+---
+
+nofloppy:
+  dracut_confd_manage: no
+  dracut_confd:
+    nofloppy:
+      omit_drivers+: >-
+        nofloppy

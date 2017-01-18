@@ -1,0 +1,23 @@
+---
+
+galaxy_info:
+  author: cognifloyd
+  description: Disable floppy module on RHEL/CentOS
+  company: Theatro Labs, Inc.
+  license: MIT
+  min_ansible_version: 2.0
+  platforms:
+  - name: EL
+    versions:
+  #  - all
+  #  - 5
+  #  - 6
+    - 7
+  galaxy_tags:
+    - system
+    - packaging
+
+dependencies:
+  - role: jtyr.dracut
+    dracut_confd_manage: '{{ nofloppy.dracut_confd_manage }}'
+    dracut_confd: '{{ nofloppy.dracut_confd }}'
