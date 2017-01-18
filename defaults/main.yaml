@@ -6,3 +6,4 @@ nofloppy:
     nofloppy:
       omit_drivers+: >-
         nofloppy
+  dracut_initramfs_build: yes
