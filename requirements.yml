@@ -1,2 +1,5 @@
 ---
 - src: jtyr.dracut
+# jtyr.dracut doesn't have requirements.yml, so add it's dependency here.
+- src: jtyr.config_encoder_filters
+  name: config_encoder_filters
