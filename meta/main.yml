@@ -18,6 +18,6 @@ galaxy_info:
     - packaging
 
 dependencies:
-  - role: jtyr.dracut
+  - src: jtyr.dracut
     dracut_confd_manage: '{{ nofloppy.dracut_confd_manage }}'
     dracut_confd: '{{ nofloppy.dracut_confd }}'
