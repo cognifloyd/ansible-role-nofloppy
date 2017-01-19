@@ -19,6 +19,3 @@ galaxy_info:
 
 dependencies:
   - src: jtyr.dracut
-    dracut_confd_manage: '{{ nofloppy.dracut_confd_manage }}'
-    dracut_confd: '{{ nofloppy.dracut_confd }}'
-    dracut_initramfs_build: '{{ nofloppy.dracut_initramfs_build }}'

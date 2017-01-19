@@ -1,9 +1,0 @@
----
-
-nofloppy:
-  dracut_confd_manage: no
-  dracut_confd:
-    nofloppy:
-      omit_drivers+: >-
-        nofloppy
-  dracut_initramfs_build: yes
